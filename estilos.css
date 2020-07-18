@@ -22,9 +22,26 @@ nav a{
 }
 
 .icono{
+    text-align: center;
+    width: 130px;
+    color: #fff;
+    background: #5eccff;
     display: block;
     z-index: 100000000;
     animation: moverIzquierda 1s ease-in;
+    transition: 0.5s;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 5px 0px 0px #6de9ff7a;
+}
+.icono:hover{
+    box-shadow: none;
+    transform: translateY(5px);
+    transition: all .1s linear;
+  }
+.icono:focus{
+   outline: none;
 }
 
 header{
@@ -104,9 +121,8 @@ img{
     width: 100%;
     transition: all 1s ease;
     background: #b85ee2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #a007f8, #af4ebc);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #a007f8, #8a4ebc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #a007f8, #af4ebc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a007f8, #8a4ebc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .uno{
