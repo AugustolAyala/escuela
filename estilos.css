@@ -103,9 +103,9 @@ img{
 .wave{
     height: 100px;
     width: 100%;
-    background: #fd9b4b;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #f5e660, #ffe263);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #706e55, #83837a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: #ffa238;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fdc570, #e4b32c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e9b721, #817e78); /* W3C,  IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
 }
 
 .enlaces{
